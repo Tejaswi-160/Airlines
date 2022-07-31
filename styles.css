@@ -1,0 +1,110 @@
+body {
+    background: url("./images/sbg.jpg");
+    background-size: 100%;
+}
+
+.head h1 {
+    color: white;
+    font-weight: 180%;
+    font-size: 400%;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 38%;
+    padding-top: 5%;
+    margin-top: 5px;
+    float: left;
+}
+
+.head h4 {
+    color: white;
+    font-weight: 200%;
+    font-size: 250%;
+    font-family: Gabriola;
+    float: right;
+    padding-top: 15px;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: -20px;
+}
+
+.logo {
+    color: #291708;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    border-radius: 110%;
+    float: right;
+    padding-top: 10px;
+    margin-top: 5px;
+    width: 110px;
+    height: 110px;
+}
+
+.form {
+    width: 300px;
+    height: 700px;
+    background: rgba(14, 12, 116, 0.852);
+    border: 10px solid #69c7dc;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    transform: translate(0%, -9%);
+    border-radius: 30px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 9px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 35px;
+    font-family: sans-serif;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;
+}
